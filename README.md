@@ -1,3 +1,4 @@
+
 # oauth2-server
 
 [![npm Version][npm-image]][npm-url]
@@ -8,6 +9,7 @@
 
 Complete, compliant and well tested module for implementing an OAuth2 server in [Node.js](https://nodejs.org).
 
+Note: After a period of hiatus, this project is now back under active maintenance. Dependencies have been updated and bug fixes will land in v3 (current master). v4 will be _mostly backwards compatible_ with no code changes required for users using a supported node release. More details in [#621](https://github.com/oauthjs/node-oauth2-server/issues/621).
 
 ## Installation
 
@@ -22,7 +24,7 @@ The *oauth2-server* module is framework-agnostic but there are several officiall
 
 - Supports `authorization_code`, `client_credentials`, `refresh_token` and `password` grant, as well as *extension grants*, with scopes.
 - Can be used with *promises*, *Node-style callbacks*, *ES6 generators* and *async*/*await* (using [Babel](https://babeljs.io)).
-- Fully [RFC 6749](https://tools.ietf.org/html/rfc6749.html) and [RFC 6750](https://tools.ietf.org/html/rfc6749.html) compliant.
+- Fully [RFC 6749](https://tools.ietf.org/html/rfc6749.html) and [RFC 6750](https://tools.ietf.org/html/rfc6750.html) compliant.
 - Implicitly supports any form of storage, e.g. *PostgreSQL*, *MySQL*, *MongoDB*, *Redis*, etc.
 - Complete [test suite](https://github.com/oauthjs/node-oauth2-server/tree/master/test).
 
@@ -36,7 +38,7 @@ The *oauth2-server* module is framework-agnostic but there are several officiall
 
 Most users should refer to our [Express](https://github.com/oauthjs/express-oauth-server/tree/master/examples) or [Koa](https://github.com/oauthjs/koa-oauth-server/tree/master/examples) examples.
 
-Examples for v3 are yet to be made. 
+More examples can be found here: https://github.com/14gasher/oauth-example
 
 ## Upgrading from 2.x
 
@@ -63,6 +65,6 @@ npm test
 [travis-url]: https://travis-ci.org/oauthjs/node-oauth2-server
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://raw.githubusercontent.com/oauthjs/node-oauth2-server/master/LICENSE
-[slack-image]: https://img.shields.io/badge/slack-join-E01563.svg
-[slack-url]: https://oauthjs.slack.com
+[slack-image]: https://slack.oauthjs.org/badge.svg
+[slack-url]: https://slack.oauthjs.org
 
